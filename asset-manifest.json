@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/css/main.f554a020.css",
+    "main.js": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/js/main.286171c5.js",
+    "static/js/787.6b25132c.chunk.js": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/js/787.6b25132c.chunk.js",
+    "static/media/5.gif": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/media/5.75b06812401c7ec924e1.gif",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/proj2.png": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/media/proj2.7b133f450d40997dfe2a.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/pfp.jpg": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/media/pfp.1e0a5d74d32a4f23f481.jpg",
+    "index.html": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/index.html",
+    "main.f554a020.css.map": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/css/main.f554a020.css.map",
+    "main.286171c5.js.map": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/js/main.286171c5.js.map",
+    "787.6b25132c.chunk.js.map": "/hamiltondowdy/hd-portfolio/blob/main/src/App.js/static/js/787.6b25132c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f554a020.css",
+    "static/js/main.286171c5.js"
+  ]
+}
