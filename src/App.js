@@ -8,10 +8,13 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div>
+    <div className='body-part'>
       <Navbar sticky="top" />
+      {" "} 
       <About />
+      {" "} 
       <Project />
+      {" "} 
       <Contact />
     </div>
   );

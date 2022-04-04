@@ -29,6 +29,53 @@ justify-content: center;
 
 }
 
+.pad button {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+    width: 100px;
+}
+
+.pad button:hover {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+    width: 100px;
+}
+
+.aboot {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #ebedee, #d7e1e6);
+    box-shadow: inset 6px 6px 13px #e4e2e2, inset -6px -6px 13px #f3f5f5;
+}
+
+hero-wrapper {
+    position: relative;
+}
+.boxy {
+    position: relative;
+}
+
+.pad a {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+    width: 100px;
+}
+
+.pad a:hover {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 20px;
+    width: 100px;
+}
+
 
 .row > div {
     flex-basis: 30%; /* or - flex: 0 50% - or - flex-basis: 50% - */
@@ -36,7 +83,6 @@ justify-content: center;
  
     
   justify-content: center;
-    align-items: center;
     padding: 5px;
     margin: 3px;
 
@@ -56,7 +102,10 @@ viewThree col-md {
     box-shadow:5 5 15px#fff; 
 }
 
-
+.pfp img {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .gif {
     flex-wrap: wrap;
     justify-content: center;

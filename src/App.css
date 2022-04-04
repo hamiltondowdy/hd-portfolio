@@ -61,7 +61,7 @@ html, body, #app, #app>div {
 .container {
   width: 200%;
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px
+  padding: 3px 10px 0px 0px
 }
 
 html {
@@ -69,6 +69,11 @@ html {
   background-color: #f5f5f5;
   font-family: 'Montserrat', sans-serif;
 
+}
+
+body-part {
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .row {
