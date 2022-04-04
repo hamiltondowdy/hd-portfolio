@@ -5,16 +5,16 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import './App.css';
+
 
 function App() {
   return (
-    <div className='body-part'>
-      <Navbar sticky="top" />
-      {" "} 
+    <div className='col-md justify-content-center margin-auto'>
+      <Navbar sticky="top"  />
+      <Project/>
+  
       <About />
-      {" "} 
-      <Project />
-      {" "} 
       <Contact />
     </div>
   );

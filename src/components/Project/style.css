@@ -5,6 +5,11 @@ grid-container {
     justify-content: center;
     background-color: #d8d5d5;
 }
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
 
 .neo-button repoLink {
     margin-top: 10px;
@@ -27,7 +32,7 @@ grid-container {
 
     {
         display: flex;
-        width: 60%;
+        width: 73%;
         justify-content:center;
         margin:0 auto;
     }
@@ -51,8 +56,8 @@ proj img {
     border: none;
     outline: none;
     border-radius: 11px;
-    background: linear-gradient(145deg, #f0f1f3, #e9ebeb);
-    box-shadow: 6px 6px 13px #f4f4f7, -6px -6px 13px #ffffff
+    background: linear-gradient(145deg, #f5f7fa, #f6fafa);
+    box-shadow: 6px 6px 13px #f4f4f7, -6px -6px 13px #f1ebeb
 }
 
 
@@ -62,11 +67,22 @@ proj img {
     cursor: pointer;
     border: none;
     outline: none;
+    color: rgb(157, 159, 163);
     border-radius: 11px;
-    background: linear-gradient(145deg, #e0e1e4, #f5f8f8);
-    box-shadow: 3px 6px 13px #ffffff, -6px -6px 10px #d6d3d3
+    background: linear-gradient(145deg, #e3e5e9, #eaf1f1);
+    box-shadow: 3px 6px 13px #d3cece, -6px -6px 10px #fcf8f8
 }
 
+.row > div {
+    flex-basis: 27%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+ 
+    
+  justify-content: center;
+    padding: 5px;
+    margin: 3px;
+
+  }
 
 
 .neo-button:hover {
@@ -76,8 +92,8 @@ proj img {
     outline: none;
     color: rgb(111, 112, 114);
     border-radius: 11px;
-    background: linear-gradient(145deg, #a5aaaa, #6a6c6d);
-    box-shadow: 3px 6px 13px #ffffff, -6px -6px 10px #d6d3d3
+    background: linear-gradient(145deg, #dbe0e0, #f6f8fa);
+    box-shadow: 3px 6px 13px #f3f1f1, -6px -6px 10px #f1ecec
 }
 
 #pp {
@@ -86,9 +102,10 @@ proj img {
     cursor: pointer;
     border: none;
     outline: none;
+    color: rgb(111, 112, 114);
     border-radius: 11px;
     background: linear-gradient(145deg, #f1eeee, #faf8f8);
-    box-shadow: 6px 6px 13px #dadadf, -6px -6px 13px #fffdfd
+    box-shadow: 6px 6px 13px #e2e2e4, -3px -3px 13px #e6dfdf
 }
 
 #pp:hover {
@@ -97,6 +114,7 @@ proj img {
     cursor: pointer;
     border: none;
     outline: none;
+    color: rgb(111, 112, 114);
     border-radius: 11px;
     background: linear-gradient(145deg, #e4e1e1, #eff3f3);
     box-shadow: 6px 6px 13px #f8f6f6, -6px -6px 13px #f1eeee

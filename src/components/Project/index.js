@@ -13,12 +13,12 @@ function Project() {
         if (projects.indexOf(project) === 0 || projects.indexOf(project) %2 === 0 ) {
             return (
 
-            <Container>
-             <Row>
+            <Container className="container-md justify-content-center">
+             <Row className="container-md justify-content-center">
      
-  <h3 className="display-6">Projects</h3>
+  <h3 className="justify-content-center">Projects</h3>
     
-        <Col className="coll">
+        <Col className="col-md">
         <Card style={{ width: '18rem' , backgroundColor: '#f1f2f5'}}>
   <Card.Img variant="top" src={ProjImg} />
   <Card.Body>
