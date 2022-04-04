@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Penguin Post",
+        "img": "../img/proj2.png",
+        "about": "Twitter, basically.",
+        "technologies": ["Node", "Express", "MySQL"],
+        "repo": "https://github.com/hamiltondowdy/penguin-post"
+    }
+]

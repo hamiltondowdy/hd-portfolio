@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+body {
+    text-align: center;
+    font-family: 'Calibri', sans-serif !important;
+    background-color: #e9eaeb
+}
+
+.social-buttons {
+    margin-top: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.social-buttons button {
+    margin: 10px
+}
+
+.neo-button {
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #f0f1f3, #e9ebeb);
+    box-shadow: 6px 6px 13px #d4d4d6, -6px -6px 13px #ffffff
+}
+
+.neo-button:hover {
+    width: 70px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #ebedee, #d7e1e6);
+    box-shadow: inset 6px 6px 13px #e4e2e2, inset -6px -6px 13px #f3f5f5
+}
+
+.neo-button .fa {
+    color: rgb(166, 166, 173)
+}
+
+h3 {
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 11px;
+    background: linear-gradient(145deg, #ebedee, #d7e1e6);
+    box-shadow: inset 6px 6px 13px #e4e2e2, inset -6px -6px 13px #f3f5f5;
+}
