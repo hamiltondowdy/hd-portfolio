@@ -51,6 +51,31 @@ viewThree col-md {
     align-items: center;
 }
 
+.pfp:hover {
+    opacity: 0;
+    box-shadow:5 5 15px#fff; 
+}
+
+
+.gif {
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    width: 240px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    vertical-align: bottom;
+  }
+  
+.pfp {
+    position:relative;
+    width: 240px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 15px;
+    vertical-align: bottom;
+  }
 
  img {
     cursor: pointer;

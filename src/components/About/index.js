@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import Prof from "../../img/prof.jpg";
+import gif from "../../img/5.gif";
+import Pfp from "../../img/pfp.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from "../../components/Skills";
 
@@ -9,9 +10,10 @@ function About() {
 
     return (
             <div className="row">
-                <div className="img">
-                    <img src={Prof} className="me" alt="Me"></img>
-                </div>
+                <div className="hero-wrap">
+                    <img className="gif" src={gif}  alt="gif" /><img className="pfp" src={Pfp} alt="Pfp" />
+              
+               </div>
                 <div className="col-md justify-content">
                     <h3 className="display-7">About</h3>
                     <div className="row align-self-center bioText">
