@@ -1,7 +1,7 @@
 
 # Personal Portfolio
 
-Welcome to my development portfolio! Check it out and let me know what your think.
+Welcome to my development portfolio! Check it out and let me know what you think.
 
 
 
