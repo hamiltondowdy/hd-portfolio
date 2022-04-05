@@ -7,7 +7,7 @@ import "./style.css";
 function NavBar() {
 return (
 
-  <Navbar bg="light" expand={false}>
+  <Navbar expand={false}>
   <Container fluid>
     <Navbar.Brand href="#"><h1>Hamilton Dowdy</h1></Navbar.Brand>
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
